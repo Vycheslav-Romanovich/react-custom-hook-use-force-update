@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t=(e=require("react"))&&"object"==typeof e&&"default"in e?e.default:e;exports.useForceUpdate=function(){var e=t.useState({count:0})[1];return t.useCallback((function(){e((function(e){return{count:e.count+1}}))}),[])};
